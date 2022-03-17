@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/institu6/public_html/demo1-react/
+    - /bin/cp -R images $DEPLOYPATH
